@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { makeStyles } from "@material-ui/core/styles";
 import {
     Table,
     TableContainer,
@@ -8,11 +7,7 @@ import {
     TableCell,
     TableBody,
     TableRow,
-    Modal,
-    Button,
-    TextField,
 } from "@material-ui/core";
-import { Edit, Delete } from "@material-ui/icons";
 import Cookies from "universal-cookie";
 const cookies = new Cookies();
 const url = "http://localhost:8080/reservas";
